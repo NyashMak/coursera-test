@@ -85,3 +85,77 @@ body {
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
     border: 1px solid #61122f;
 }
+
+.navbar-header button {
+    clear: both;
+    margin-top: -30px;
+}
+
+/* END HEADER */
+
+/******** Large Devices Only *******/
+@media (min-width: 1200px) {
+
+}
+/******** Medium Devices Only *******/
+@media (min-width: 992px) and (max-width: 1199px) {
+    #logo-img {
+    background: url(../images/the-red-cafe-logo-medium.png) no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0px;
+    }
+}
+/******** Small Devices Only *******/
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+/******** Extra Small Devices Only *******/
+@media (max-width: 767px) {
+ .navbar-brand {
+     padding-top: 10px;
+     height: 80px;
+ }   
+
+ .navbar-brand h1 { /* Business Name */
+    padding-top: 10px;
+    font-size: 5vw;
+ }
+
+ .navbar-brand p { /* Kosher Cert */
+    font-size: .6em;
+    margin-top: 12px;
+ }
+
+ .navbar-brand p img { /*Star K*/
+    height: 20px;
+ }
+
+ #collapsable-nav a {
+     font-size: 1.2em;
+ }
+
+ #collapsable-nav a span {
+    font-size: 1em;
+    margin-right: 5px;
+}
+ 
+#call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+/* End Header */
+
+
+}
