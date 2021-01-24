@@ -12,3 +12,5 @@
 [0111/213540.417:ERROR:exception_snapshot_win.cc(99)] thread ID 6052 not found in process
 [0114/140319.079:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
 [0114/224809.949:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0121/130423.538:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0124/141542.037:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
